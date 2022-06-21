@@ -1,0 +1,17 @@
+.Plan{
+    background-image: url(../../../assets/img/TodayBackPic/plan.png);
+}
+
+#plan{
+    background-color: #d3f1ef;
+    color: #35837f;
+    font-size:14px;
+    padding-left: 5px;
+}
+
+#plan::placeholder{
+    color: #35837f;
+    font-size:14px;
+    padding-left: 5px;
+}
+

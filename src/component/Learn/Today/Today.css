@@ -1,0 +1,37 @@
+.Today {
+    height: 100%;
+    padding: 20px;
+    background-image: url(../../../assets/img/TodayBackPic/today.jpeg);
+    color: white;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Today_top {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+#darkBtn {
+    background-color: rgba(38, 38, 38, .6);
+    color: white;
+}
+
+.Task_back {
+    height: 100%;
+    padding: 20px;
+    color: white;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../../assets/img/TodayBackPic/task.png);
+    background-position: center;
+}
+
+.all_Task {
+    background-image: url(../../../assets/img/TodayBackPic/all.png);
+    background-position: center;
+}

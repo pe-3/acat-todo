@@ -1,0 +1,17 @@
+.Important{
+    background-image: url(../../../assets/img/TodayBackPic/important.png);
+}
+
+#pink{
+    background-color: #Fdd4d8;
+    color: #b34869;
+    font-size:14px;
+    padding-left: 5px;
+}
+
+#pink::placeholder{
+    color: #b34869;
+    font-size:14px;
+    padding-left: 5px;
+}
+

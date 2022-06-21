@@ -1,0 +1,20 @@
+.LeftMenuList {
+    height: 100vh;
+    margin-top: -18px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 0 10px;
+    padding-top: 18px;
+    position: relative;
+}
+
+.NewList {
+    height: calc(100% - 50vh);
+    overflow: auto;
+}
+
+.menu_back{
+    background: rgb(210, 210, 210);
+    box-shadow: 0px 5px 6px rgb(160, 160, 160);
+    background: -webkit-linear-gradient(60deg, rgba(250, 250, 250, 1) 25%, rgba(210, 210, 210, 1));
+}

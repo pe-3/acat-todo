@@ -1,0 +1,8 @@
+.SelectRadio{
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 50%;
+    border: 1.5px solid grey;
+    display: inline-grid;
+    place-content: center;
+}

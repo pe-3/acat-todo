@@ -1,0 +1,18 @@
+.menuitem {
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 170px;
+    justify-content: center;
+    height: 30px;
+}
+
+.menuitem:hover{
+    color: cyan;
+    background-color: rgba(38,38,38,.6);
+}
+
+.theme-wrapper{
+    width: 170px;
+}
