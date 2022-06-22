@@ -1,0 +1,6 @@
+.TaskDetial {
+    height: calc(100vh - 5px);
+    width: 250px;
+    padding: 10px 20px;
+    overflow: auto;
+}

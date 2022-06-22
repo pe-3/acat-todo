@@ -16,3 +16,13 @@
 .back_center{
     background-position: center;
 }
+
+.learn_hide{
+    transition: all .5s ease-in-out;
+    width: 0;
+    overflow: hidden;
+}
+
+.task_detail{
+    width: 250px;
+}

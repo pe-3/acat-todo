@@ -1,0 +1,17 @@
+.TDMenuItem {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    color: #575757;
+    cursor: pointer;
+}
+
+.menuText {
+    flex: 1;
+    padding-left: 14px;
+    text-align: left;
+}
+
+.TDMenus {
+    border-bottom: 1px solid #eee;
+}

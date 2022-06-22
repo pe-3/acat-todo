@@ -4,6 +4,7 @@ import './LeftMenuList.css'
 import MyGap from '../../MyGap/MyGap'
 import { PlusOutlined, BarsOutlined, SmileOutlined, StarOutlined, ScheduleOutlined, TeamOutlined, CheckOutlined } from '@ant-design/icons'
 import { useNavigate, useLocation } from 'react-router-dom'
+import Userbar from './userbar/Userbar'
 const { Search } = Input
 class MenuList extends Component {
     items = [
@@ -38,9 +39,10 @@ class MenuList extends Component {
         let selectKey = this.props.pathname.split('/')[1];
         return (
             <div className='LeftMenuList menu_back'>
+                <Userbar />
                 <Search placeholder='搜索计划' />
                 <MyGap isVertical />
-                <Menu items={this.items} defaultSelectedKeys={selectKey?selectKey:'Today'} style={{ borderRight: 'none', background: 'transparent', }} onSelect={(arg) => {
+                <Menu items={this.items} defaultSelectedKeys={selectKey ? selectKey : 'Today'} style={{ borderRight: 'none', background: 'transparent', }} onSelect={(arg) => {
                     this.props.jump('/' + arg.key);
                 }} />
             </div>

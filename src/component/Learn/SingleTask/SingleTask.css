@@ -28,6 +28,8 @@
     box-sizing: border-box;
     padding: 4px 0;
     justify-items: flex-start;
+    flex: auto;
+    cursor: pointer;
 }
 
 .pos_bottom{

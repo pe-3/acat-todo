@@ -1,0 +1,28 @@
+#stepInput{
+    padding-left: 10px;
+}
+
+.TDSteps{
+    min-height: 40px;
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+.TDSingleStep{
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    height: 40px;
+    padding-right: 4px;
+}
+
+.StepTitle{
+    padding-left: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+}

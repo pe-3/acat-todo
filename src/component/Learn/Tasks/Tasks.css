@@ -1,8 +1,17 @@
-.Tasks{
+.Tasks {
     height: calc(100vh - 220px);
     overflow: auto;
 }
 
-#addTask{
+#addTask {
     background-color: #4b4645;
+}
+
+#plusIcon {
+    cursor: pointer;
+    color: white;
+}
+
+#plusIcon:hover {
+    color: cyan;
 }

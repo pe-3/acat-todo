@@ -15,7 +15,7 @@ export default class SelectImportant extends Component {
         let { isSelected } = this.state;
         let { onSelectChange } = this.props;
         return (
-            <div className='SelectRadio' style={{ backgroundColor: isSelected ? 'grey' : '', ...this.props.style }} onClick={() => {
+            <div className='SelectRadio' style={{ backgroundColor: isSelected ? 'grey' : '', ...this.props.style, borderRadius: '5px' }} onClick={() => {
                 let { isSelected } = this.state;
                 isSelected = !isSelected;
                 this.setState({
@@ -25,7 +25,7 @@ export default class SelectImportant extends Component {
                     onSelectChange(isSelected);
                 }
             }}>
-                {this.state.isSelected ? <ExclamationOutlined style={{ fontSize: '8px' }} /> : ''}
+                {this.state.isSelected ? <ExclamationOutlined style={{ fontSize: '8px', color: 'white' }} /> : ''}
             </div>
         )
     }

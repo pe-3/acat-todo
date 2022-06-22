@@ -7,7 +7,6 @@ export default class SelectRadio extends Component {
     }
     componentDidMount() {
         let { isSelected } = this.props;
-    
         this.setState({
             isSelected
         })
@@ -26,7 +25,7 @@ export default class SelectRadio extends Component {
                     onSelectChange(isSelected);
                 }
             }}>
-                {this.state.isSelected ? <CheckOutlined style={{ fontSize: '8px' }} /> : ''}
+                {this.state.isSelected ? <CheckOutlined style={{ fontSize: '8px',color:'white' }} /> : ''}
             </div>
         )
     }
